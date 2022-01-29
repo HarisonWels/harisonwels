@@ -1,0 +1,362 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+#all-box{position: absolute;
+width: 1366px;
+left: 100px;}
+/* First-box */
+#first-box{position: absolute;
+width: 100%;
+height: 100px;
+left: 0px;
+background: #FFFFFF;
+transform: matrix(1, 0, 0, 1, 0, 0);}
+
+#logo{position: absolute;
+width: 131px;
+height: 72px;
+left: 100px;
+top: 17px;
+background: url(./logo\ \(1\)\ 1.png);}
+
+#ua{font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+color: #1F1F1F;
+position: absolute;
+width: 22px;
+height: 21px;
+left: 284px;
+top: 28px;}
+
+#ru{position: absolute;
+width: 35px;
+height: 20px;
+left: 279px;
+top: 51px;
+padding-left:7px ;
+color: white;
+background: #4AD295;
+border-radius: 2px;}
+
+#dolar{position: absolute;
+width: 75px;
+height: 19px;
+left: 365px;
+top: 10px;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 19px;
+color: #393939;}   
+
+#euro{position: absolute;
+width: 74px;
+height: 19px;
+left: 365px;
+top: 30px;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 19px;
+color: #393939;} 
+
+#vl1{position: absolute;
+width: 1px;
+height: 40px;
+left: 339px;
+top: 31px;
+background: #E2E2E2;}
+
+#vl2{position: absolute;
+width: 1px;
+height: 40px;
+left: 465px;
+top: 31px;
+background: #E2E2E2;}
+
+#vl3{position: absolute;
+width: 1px;
+height: 40px;
+left: 601px;
+top: 31px;
+background: #E2E2E2;}
+
+#facebook{position: absolute;
+left:496px ;
+top: 37px;}
+
+#instagram{position: absolute;
+left: 523px;
+top: 37px;}
+
+#youtube{position: absolute;
+left:556px ;
+top:37px ;}
+
+#tel1{position: absolute;
+width: 128px;
+height: 21px;
+left: 627px;
+top: 6px;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+color: #393939;
+text-decoration: none;}
+
+#tel2{position: absolute;
+width: 120px;
+height: 21px;
+left: 630px;
+top: 32px;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+color: #393939;
+text-decoration: none;}
+
+#phone{position: absolute;
+left:770px;
+top: 25px;
+}
+#vl4{position: absolute;
+width: 1px;
+height: 40px;
+left: 826px;
+top: 31px;
+background: #E2E2E2;}
+#block1{position: absolute;
+width: 240px;
+height: 55px;
+left: 862px;
+top: 23px;
+background: #EFF3F6;
+border-radius: 2px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+padding-top: 17px;
+padding-left: 13px;
+text-transform: uppercase;
+color: #373737;
+transition: 0.9s;} 
+#block1:hover+#block3{transform: scale(1.25);
+left: 1069px;
+transition: 0.9s;}
+#block1:hover{transform: scale(1.25);
+transition: 0.9s;}
+#block2{position: absolute;
+width: 205px;
+height: 55px;
+left: 1132px;
+top: 23px;
+background: #EFF3F6;
+border-radius: 2px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+padding-top: 17px;
+padding-left: 10px;
+text-transform: uppercase;
+color: #373737;
+transition: 0.9s;} 
+#block3{position: absolute;
+width: 55px;
+height: 55px;
+left: 1047px;
+top: 23px;
+padding-top: 13px;
+padding-left: 13px;
+background: #DD4053;
+border-radius: 2px;
+transition: 0.9s;}
+#block4{position: absolute;
+width: 55px;
+height: 55px;
+left: 1282px;
+top: 23px;
+padding-top: 13px;
+padding-left: 13px;
+background: #4AD295;
+border-radius: 2px;
+transition: 0.9s;}
+#block2:hover{transform: scale(1.25);
+transition: 0.9s;}
+#block2:hover+#block4{transform: scale(1.25);
+left: 1304px;
+transition: 0.9s;}
+
+/* Second-box */
+#second-box{position: absolute;
+width: 100%;
+height: 70px;
+left: 0px;
+top: 100px;
+border-top:solid 1px#D0D0D0;
+background: #FFFFFF;
+border-bottom: solid 1px #D0D0D0;}
+#search{position: absolute;
+left:174px ;
+top: 20px;
+color: black;  }
+/* Navigator-menu */
+
+/* Hotel */
+#hotel{position: absolute;
+top: 27px;
+left: 253px;
+color: black;
+height: 41px;
+transition: 0.3s;}
+#hotel:hover{border-bottom: solid 4px rgba(221, 64, 83, 1);
+transition: 0.3s;}
+#hotel:hover+#countries+#avia+#tours
++#agents+#info+#blog+#faq+#contact{border-bottom: solid 1px #D0D0D0;
+transition: 0.3s;}
+/* Counries */
+#countries{position: absolute;
+top: 27px;
+left: 369px;
+color: black;
+height: 41px;
+transition: 0.3s;}
+#countries:hover{border-bottom: solid 4px rgba(221, 64, 83, 1);
+transition: 0.3s;}
+#countries:hover+#avia+#tours+#agents+#info+#blog+#faq+#contact{border-bottom: solid 1px #D0D0D0;
+transition: 0.3s;}
+/* Avia */
+#avia{top: 27px;
+position: absolute;
+left: 494px;
+color: black;
+height: 41px;
+transition: 0.3s;}
+#avia:hover{border-bottom: solid 4px rgba(221, 64, 83, 1);
+transition: 0.3s;}
+#avia:hover+#tours+#agents+#info+#blog+#faq+#contact{border-bottom: solid 1px #D0D0D0;
+transition: 0.3s;}
+/* Tours */
+#tours{top: 27px;
+position: absolute;
+left: 601px;
+height: 41px;
+transition: 0.3s;}
+#tours:hover{border-bottom: solid 4px rgba(221, 64, 83, 1);
+transition: 0.3s;}
+#tours:hover+#agents+#info+#blog+#faq+#contact{border-bottom: solid 1px #D0D0D0;
+transition: 0.3s;}
+/* Agents */
+#agents{top: 27px;
+position: absolute;
+left: 760px;
+height: 41px;
+transition: 0.3s;}
+#agents:hover{border-bottom: solid 4px rgba(221, 64, 83, 1);
+transition: 0.3s;}
+#agents:hover+#info+#blog+#faq+#contact{border-bottom: solid 1px #D0D0D0;
+transition: 0.3s;}
+/* Info */
+#info{top: 27px;
+position: absolute;
+left: 897px;
+height: 41px;
+transition: 0.3s;}
+#info:hover{border-bottom: solid 4px rgba(221, 64, 83, 1);
+transition: 0.3s;}
+#info:hover+#blog+#faq+#contact{border-bottom: solid 1px #D0D0D0;
+transition: 0.3s;}
+/* Blog */
+#blog{top: 27px;
+position: absolute;
+left: 1014px;
+height: 41px;
+transition: 0.3s;}
+#blog:hover{border-bottom: solid 4px rgba(221, 64, 83, 1);
+transition: 0.3s;}
+#blog:hover+#faq+#contact{border-bottom: solid 1px #D0D0D0;
+transition: 0.3s;}
+/* FAQ */
+#faq{top: 27px;
+position: absolute;
+left: 1108px;
+height: 42px;
+transition: 0.3s;}
+#faq:hover{border-bottom: solid 4px rgba(221, 64, 83, 1);
+transition: 0.3s;}
+#faq:hover+#contact{border-bottom: solid 1px #D0D0D0;
+transition: 0.3s;}
+/* Contacts */
+#contact{top: 27px;
+position: absolute;
+left: 1196px;
+height: 42px;
+border-bottom: solid 4px rgba(221, 64, 83, 1);
+transition: 0.1s;}
+
+.list{color: black;}
+.list:hover{text-decoration: none;
+color: black;}
+
+#hotel:hover> ul a{
+opacity: 1;
+}
+#hotel:hover> ul{border-top: solid 3px rgba(221, 64, 83, 1);}
+#hotel:hover ul li{
+height: 40px;
+opacity: 1;
+}
+#countries:hover> ul a{
+opacity: 1;
+} 
+#countries:hover> ul{border-top: solid 3px rgba(221, 64, 83, 1);}
+#countries:hover> ul li{
+height: 40px;
+opacity: 1;
+}
+#avia:hover> ul a{
+opacity: 1;
+}
+#avia:hover> ul{border-top: solid 3px rgba(221, 64, 83, 1);}
+#avia:hover > ul li{
+height: 40px;
+opacity: 1;
+}
+.inner_menu{
+z-index: 9;
+position: absolute;
+top: 100%;
+left: 0;
+list-style: none;
+padding-left: 0;
+text-align: left;
+white-space: nowrap;
+background-color:white;
+}
+.inner_menu > li{
+height: 0;
+opacity: 0;
+transition: height 0.3s, opacity 0.4s;
+}
+.inner_menu > li > a{
+width: 100%;
+display: inline-block;
+padding: 10px 20px; 
+color: inherit;
+text-decoration: none; 
+height: inherit;
+overflow: hidden;
+opacity: 0;
+transition: height 0.4s, opacity 0.5s;
+} 
+    
